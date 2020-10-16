@@ -1,0 +1,12 @@
+The script needs to be receive the following payload :
+
+{
+	"name": "{{ticket.ticket_field_27941965}}",
+	"email": "{{ticket.requester.email}}",
+	"phone": "{{ticket.ticket_field_25309499}}",
+	"member_id": "{{ticket.ticket_field_25403025}}",
+	"membership": "{{ticket.ticket_field_25739049}}",
+	"amount": "{{ticket.ticket_field_26268975}}",
+	"zendesk_id": "{{ticket.id}}",
+	"dispatch_date": "{{ticket.ticket_field_26163889}}"
+}
